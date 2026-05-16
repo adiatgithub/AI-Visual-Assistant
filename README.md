@@ -4,13 +4,21 @@ Real-time assistive computer vision prototype combining object detection, OCR, c
 
 📌 Overview
 AI Visual Assistant is a real-time accessibility-oriented computer vision system designed to improve environmental awareness through multimodal feedback.
+
 The system integrates:
+
 real-time object detection
+
 persistent object tracking
+
 OCR text recognition
+
 directional awareness
+
 contextual warning prioritization
+
 browser-based voice alerts into a unified Streamlit interface.
+
 Built using Python, YOLOv8, OpenCV, EasyOCR, and Streamlit.
 
 🚀 Features
@@ -44,16 +52,27 @@ Clean dark-themed interface designed for real-time interaction.
 
 
 ⚠️ Limitations
+
 Relative distance estimation is heuristic-based.
+
 Performance depends on CPU/GPU capability.
+
 Browser speech synthesis behavior varies across browsers.
+
 Designed as a prototype and research demonstration.
+
 Not intended as a production-grade assistive navigation system.
 
 🔮 Future Improvements
+
 Advanced object tracking
+
 Mobile deployment
+
 Edge-device optimization
+
 Smarter hazard ranking
+
 Improved accessibility workflows
+
 Better real-time optimization
