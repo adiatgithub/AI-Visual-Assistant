@@ -14,6 +14,7 @@ browser-based voice alerts into a unified Streamlit interface.
 Built using Python, YOLOv8, OpenCV, EasyOCR, and Streamlit.
 
 🚀 Features
+
 👁️ Real-Time Object Detection
 Detects surrounding objects using YOLOv8 in real time.
 
@@ -22,6 +23,7 @@ Provides contextual direction feedback:
 left
 ahead
 right
+
 ⚠️ Hazard Prioritization
 Prioritizes nearby and important objects instead of narrating every detection.
 
