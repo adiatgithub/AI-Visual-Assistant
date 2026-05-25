@@ -1,48 +1,78 @@
-AI Visual Assistant
+🧠 AI Visual Assistant
 
-AI Visual Assistant is a real-time assistive computer vision prototype designed to improve environmental awareness through object detection, object tracking, OCR text recognition, contextual hazard prioritization, and browser-based voice feedback.
+Real-time assistive computer vision prototype combining object detection, OCR, contextual hazard prioritization, object tracking, and browser-based voice feedback.
 
-The system combines computer vision and accessibility-oriented interaction into a unified real-time interface built using Python, YOLOv8, OpenCV, Streamlit, and EasyOCR.
+📌 Overview
+AI Visual Assistant is a real-time accessibility-oriented computer vision system designed to improve environmental awareness through multimodal feedback.
 
-------------------------------------------------------------------------------
+The system integrates:
 
-Features:-
-1.Real-time object detection using YOLOv8
-2.Persistent object tracking
-3.OCR-based text recognition
-4.Browser-based voice alerts
-5.Direction awareness (left / ahead / right)
-6.Relative proximity estimation
-7.Priority-based warning system
-8.FPS monitoring
-9.Interactive Streamlit interface
+real-time object detection
 
-------------------------------------------------------------------------------
+persistent object tracking
 
-Tech Stack:-
-1.Python
-2.OpenCV
-3.YOLOv8
-4.Streamlit
-5.EasyOCR
-6.PyTorch
-7.NumPy
+OCR text recognition
 
-------------------------------------------------------------------------------
+directional awareness
 
-Limitations:-
-1.Relative distance estimation is heuristic-based.
-2.Performance depends on available CPU/GPU resources.
-3.Browser speech synthesis may behave differently across browsers.
-4.Designed as a prototype and research demonstration.
+contextual warning prioritization
 
-------------------------------------------------------------------------------
+browser-based voice alerts into a unified Streamlit interface.
 
-Future Improvements:-
-1.Improved object tracking stability
-2.Better prioritization logic
-3.Edge-device optimization
-4.Mobile deployment
-5.Advanced accessibility workflows
+Built using Python, YOLOv8, OpenCV, EasyOCR, and Streamlit.
 
-------------------------------------------------------------------------------
+🚀 Features
+
+👁️ Real-Time Object Detection
+Detects surrounding objects using YOLOv8 in real time.
+
+🧭 Direction Awareness
+Provides contextual direction feedback:
+left
+ahead
+right
+
+⚠️ Hazard Prioritization
+Prioritizes nearby and important objects instead of narrating every detection.
+
+🧠 Object Tracking
+Persistent tracking IDs reduce flickering detections and improve consistency.
+
+🗣️ Browser-Based Voice Alerts
+Provides real-time spoken warnings using browser speech synthesis.
+
+📝 OCR Text Recognition
+Reads visible text from the environment using EasyOCR.
+
+📊 FPS Monitoring
+Displays real-time performance metrics.
+
+🌙 Interactive Streamlit UI
+Clean dark-themed interface designed for real-time interaction.
+
+
+⚠️ Limitations
+
+Relative distance estimation is heuristic-based.
+
+Performance depends on CPU/GPU capability.
+
+Browser speech synthesis behavior varies across browsers.
+
+Designed as a prototype and research demonstration.
+
+Not intended as a production-grade assistive navigation system.
+
+🔮 Future Improvements
+
+Advanced object tracking
+
+Mobile deployment
+
+Edge-device optimization
+
+Smarter hazard ranking
+
+Improved accessibility workflows
+
+Better real-time optimization
